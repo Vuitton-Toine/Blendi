@@ -1,0 +1,103 @@
+body {
+    font-family: ARIAL;
+    font-weight: bold;
+    background: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+main {
+    width: 59%;  
+    margin: 0 auto;
+    padding: 10px; 
+    background: #41b6e6;
+    border: 2px solid #000000;
+}
+.row {
+    width: 100%;
+    height: 100%;
+}
+.col-md-4 {
+    width: 33%;
+    height: 33%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.col-md-8 {
+      width: 59%;  
+    margin: 0 auto; 
+}
+h1 {
+    color: white;
+    padding: 0;
+    margin: 16px 0 0 0;
+    text-align:center;
+    
+}
+h3 {
+    color: white;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+p3 {
+    font-size: .75em;
+    color: white;
+    padding: 0;
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+p4 {
+    font-size: 1em;
+    color: white;
+    padding: 0;
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+
+
+label {
+    width: 26.6%; 
+    float: left;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+#data input {
+    float: left;
+    width: 40%; 
+    margin-bottom: 8px;
+}
+#buttons input {
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, Sans-Serif;
+    background: navy;
+    color: white;
+    text-align: center;
+}
+br {
+    clear: left;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.button{
+    text-align:center;
+    
+}
+.content{
+    text-align:center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
